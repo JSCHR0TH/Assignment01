@@ -65,36 +65,32 @@ Using a set of Comparison and Logical operators, write an application that evalu
 Using a set of Comparison and Logical operators, write an application that evaluates to false and displays the result within the console window. The application cannot use the same operators used in the previous application.
 */
 
+
 //STEP1
 
-/*
 let someMonth
 function theMonth()
 let currentMonth
 let myLibraryFunction
-*/
+
 
 //STEP2
 
-/*
 32 //(numeric)
 'This is a string literal'
-True //(boolean)
+true //(boolean)
 null
-*/
 
 
 //STEP3
 
-/*
 let travelDestination = 'Hawaii'
-let devisionRemainder = 933/2
+let devisionRemainder = 933%2
 console.log (devisionRemainder)
-*/
+
 
 //STEP4
 
-/*
 let firstName
 let lastName
 let address
@@ -104,26 +100,69 @@ let zipCode
 let yourAge
 let referralSource
 let blnPermToContact
-*/
+
 
 //STEP5
 
-/*
+
 let firstName 
 firstName = prompt ('What is your first name?')
 
 let blnPermToContact = false
 
 let firstName = 'John', blnPermToContact = false
-*/
+
 
 //STEP6
+
+let result = 5 + ' minutes'
+console.log (result)
+
+
 //STEP7
+
+
+let firstVar = 'Is it Friday today?: ' + false
+console.log (firstVar)
+
+let secondVar = 5 + true
+console.log (secondVarVar)
+
+
 //STEP8
+//add a string escape after "I"
+let someString = 'Who once said, "Only two things are infinite, the universe and human stupidity, and I\'m not sure about the former."'
+console.log(someString)
+
+
 //STEP9
+
+let nullResult = null
+console.log (nullResult)
+let undefinedResult
+console.log (undefinedResult)
+
+
 //STEP10
+let message = 'This is a string literal'
+console.log (typeof message)
+let age = 32
+console.log (typeof age)
+let answer = true
+console.log (typeof answer)
+let fullName = {firstName:'Jana', lastName:'Schroth'}
+console.log(typeof fullName)
+let x
+console.log(typeof x)
+
 //STEP11
+
+let myName = 'Jana Schroth'
+alert ('Hello ' + myName + ', welcome to the JavaScript class!')
+
 //STEP12
+
+let name = 'Jana Schroth'
 //STEP13
 //STEP14
 //STEP15
