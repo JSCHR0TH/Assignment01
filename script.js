@@ -65,6 +65,7 @@ Using a set of Comparison and Logical operators, write an application that evalu
 Using a set of Comparison and Logical operators, write an application that evaluates to false and displays the result within the console window. The application cannot use the same operators used in the previous application.
 */
 
+/* ANSWERS
 
 //STEP1
 
@@ -189,8 +190,50 @@ let course = prompt ('Enter the course name:')
 alert ('Hello ' + Name + `\nWelcome to the ${course} class!`)
 
 //STEP17
+let x = 10
+let y = 20
+let sum = x + y
+console.log(sum)
+
 //STEP18
+
+let x = 20
+x = x + 20
+console.log(x)
+
 //STEP19
+
+let x = 20
+x = x * 5
+console.log(x)
+
 //STEP20
+
+let x = 20 % 3
+x = x / 1
+console.log(x)
+
 //STEP21
+
+let miles = 300
+let gallons = 20
+let MPG = miles / gallons
+let result = MPG <= 25
+alert (`Your car get less that 25 MPG on a full tank of gas : ${result}`)
+
 //STEP22
+
+let heightPerson1 = 75
+let heightPerson2 = 45
+let result = heightPerson1 == heightPerson2
+alert (`Both individuals have the same height: ${result}`)
+
+//extra
+let namePerson1 = prompt ('Enter name for person 1:')
+let heightPerson1 = prompt ('Enter height in inch for person 1:')
+let namePerson2 = prompt ('Enter name for person 2:')
+let heightPerson2 = prompt ('Enter height in inch for person 2:')
+let result = heightPerson1 > heightPerson2
+alert (`${namePerson1} is taller than ${namePerson2}: ${result}`)
+
+*/
