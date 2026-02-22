@@ -157,16 +157,37 @@ console.log(typeof x)
 
 //STEP11
 
-let myName = 'Jana Schroth'
-alert ('Hello ' + myName + ', welcome to the JavaScript class!')
+alert ('Hello ' + 'Jana Schroth' + ', welcome to the JavaScript class!')
 
 //STEP12
 
-let name = 'Jana Schroth'
+let Name = 'Jana Schroth'
+alert ('Hello ' + Name + ', welcome to the JavaScript class!')
+
 //STEP13
+
+let Name = 'Jana Schroth'
+let course = 'JavaScript'
+alert ('Hello ' + Name + `Welcome to the ${course} class!`)
+
 //STEP14
+
+let Name = 'Jana Schroth'
+let course = 'JavaScript'
+alert ('Hello ' + Name + `\nWelcome to the ${course} class!`)
+
 //STEP15
+
+let Name = prompt ('Enter your first and last name:')
+let course = 'JavaScript'
+alert ('Hello ' + Name + `\nWelcome to the ${course} class!`)
+
 //STEP16
+
+let Name = prompt ('Enter your first and last name:')
+let course = prompt ('Enter the course name:')
+alert ('Hello ' + Name + `\nWelcome to the ${course} class!`)
+
 //STEP17
 //STEP18
 //STEP19
